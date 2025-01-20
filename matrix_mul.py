@@ -11,14 +11,12 @@ Prices = [[300, 500],
 Array2 = [200, 100]
 
 # Calculate the result
-Ans = []
+# Ans = []
 # (300*200 + 500*100) as an example calculation
 
 for i in range(len(Prices)):
-    row_sum = 0
-    for j in range(len(Prices[0])):
-        # COMPLETE THE MISSING LOGIC HERE
-        pass
+  for j in range(len(Prices[0])):
+    res1 = ((Prices[0,0])*(Total[0])) + ((Prices[0,1])*(Total[1]))
+    res2 = ((Prices[1,0])*(Total[0])) + ((Prices[1,1])*(Total[1]))
 
-
-print(Ans)
+print(res1, res2)
